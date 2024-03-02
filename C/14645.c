@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	printf("÷ס¿ְּֽ");
+	printf("כ¹„ל™€ל´");
 	
 	return 0;
 }
