@@ -1,5 +1,11 @@
+# Usage : Python Clear.py
+# Description : Deletes ignored files.
+
 from glob import glob
 from os import remove
+
+if __name__ != "__main__":
+    exit()
 
 directories = ["C", "C++"]
 targetFiles = ["*.exe", "*.out"]
