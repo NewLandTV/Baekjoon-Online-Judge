@@ -1,0 +1,34 @@
+# Title: Type ...(e.g. Solve 2557)
+
+# Body(optional)
+
+# Footer(optional, e.g. Fixes: #3 Related to: #1, #6)
+
+# Types
+# - Feat: New features
+# - Solve: Algorithm problem solving
+# - Try: Attempt algorithm problem (not yet solved)
+# - Fix: Bug fix
+# - Refactor: Refactoring
+# - Comment: Add and change comments
+# - Docs: Edit documents(add edit, remove document, README.md)
+# - Test: Edit test code(e.g. Add, edit, remove test code)
+# - Chore: Other changes(e.g. Edit assets, package manager, build script, etc.)
+# - Style: Changes that do not affect code semantics
+# - Change: Only used whtn changing the contents of a file or directory
+# - Rename: Only used when renaming files or directories
+# - Remove: Only used when removing files or directories
+# - Revert: Revert action
+#
+# Warnings
+# - The first letter of the title is capitalized
+# - The title is a statement
+# - Do not use full stop(.)
+# - Separate the title, body and footer into one line.
+# - The text explains "what" and "why" rather than "how".
+# - When writing multiple lines of message in the body, separate them with "-".
+#
+# Footer
+# - Fixes: Editing issue (not yet resolved)
+# - Resolves: Issue solving
+# - Related to: Issue number about this commit (not yet resolved)
