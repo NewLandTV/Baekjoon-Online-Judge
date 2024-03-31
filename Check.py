@@ -16,10 +16,14 @@ for directory, extension in zip(directories, fileExtensions):
     print(f"[{directory}]")
     print("----------")
 
+    count = 0
+    
     for arg in argv:
         fileName = f"{arg}.{extension}"
         
         if not path.exists(path.join(directory, fileName)):
+            count += 1
+
             print(fileName)
 
-    print()
+    print(f"Total : {count}")
