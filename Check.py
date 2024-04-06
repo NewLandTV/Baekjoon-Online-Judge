@@ -9,8 +9,8 @@ argv.pop(0)
 if __name__ != "__main__" or len(argv) == 0:
     exit()
 
-directories = ["C", "C++", "Python", "아희", "FreeBASIC", "Ada", "Assembly"]
-fileExtensions = ["c", "cpp", "py", "aheui", "bas", "adb", "asm"]
+directories = ["C", "C++", "Python", "아희", "FreeBASIC", "Ada", "Assembly", "Golfscript"]
+fileExtensions = ["c", "cpp", "py", "aheui", "bas", "adb", "asm", "gs"]
 
 for directory, extension in zip(directories, fileExtensions):
     print(f"[{directory}]")
