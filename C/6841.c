@@ -21,11 +21,11 @@ int main(void)
 		}
 		else if (strcmp(input, ":-)") == 0)
 		{
-			printf("I¡¯m happy\n");
+			printf("Iâ€™m happy\n");
 		}
 		else if (strcmp(input, ":-(") == 0)
 		{
-			printf("I¡¯m unhappy\n");
+			printf("Iâ€™m unhappy\n");
 		}
 		else if (strcmp(input, ";-)") == 0)
 		{
@@ -57,7 +57,7 @@ int main(void)
 		}
 		else if (strcmp(input, "YW") == 0)
 		{
-			printf("you¡¯re welcome\n");
+			printf("youâ€™re welcome\n");
 		}
 		else
 		{
