@@ -16,8 +16,6 @@ int main(void)
 
 int Fibonacci(int n)
 {
-	int i;
-	
 	if (n < 17)
 	{
 		return array[n];
