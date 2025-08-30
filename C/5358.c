@@ -1,41 +1,39 @@
 #include <stdio.h>
-#include <string.h>
 
 int main(void)
 {
-	int i, j;
-	char input[100];
+	int i;
+	int c;
 	
-	for (i = 0; i < 7; i++)
+	while (1)
 	{
-		rewind(stdin);
-		scanf("%[^\n]s", input);
+		c = getchar();
 		
-		for (j = 0; j < strlen(input); j++)
+		switch (c)
 		{
-			if (input[j] == 'i')
-			{
+			case EOF:
+				return 0;
+			case 'i':
 				fputc('e', stdout);
-			}
-			else if (input[j] == 'I')
-			{
+				
+				break;
+			case 'I':
 				fputc('E', stdout);
-			}
-			else if (input[j] == 'e')
-			{
+				
+				break;
+			case 'e':
 				fputc('i', stdout);
-			}
-			else if (input[j] == 'E')
-			{
+				
+				break;
+			case 'E':
 				fputc('I', stdout);
-			}
-			else
-			{
-				fputc(input[j], stdout);
-			}
+				
+				break;
+			default:
+				fputc(c, stdout);
+				
+				break;
 		}
-		
-		fputc('\n', stdout);
 	}
 	
 	return 0;
