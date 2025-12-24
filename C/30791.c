@@ -18,5 +18,5 @@ int main(void)
     
     printf("%d", count);
     
-	return 0;
+    return 0;
 }
