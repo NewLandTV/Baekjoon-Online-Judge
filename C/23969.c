@@ -28,7 +28,7 @@ int main(void)
 				continue;
 			}
 			
-			c++;			
+			c++;
 			temp = a[j];
 			a[j] = a[j + 1];
 			a[j + 1] = temp;
