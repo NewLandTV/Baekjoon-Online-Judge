@@ -18,15 +18,20 @@ int main(void)
 	{
 		for (j = 0; j < n - i - 1; j++)
 		{
+			if (c == k)
+			{
+				break;
+			}
+			
 			if (a[j] <= a[j + 1])
 			{
 				continue;
 			}
 			
-			c++;
-			
-			if (c == k)
+			if (++c == k)
 			{
+				printf("%d %d", a[j + 1], a[j]);
+				
 				break;
 			}
 			
@@ -46,11 +51,6 @@ int main(void)
 		printf("-1");
 		
 		return 0;
-	}
-	
-	for (i = 0; i < n; i++)
-	{
-		printf("%d ", a[i]);
 	}
 	
 	return 0;
