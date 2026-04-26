@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void)
+{
+	printf("BOJ\n");
+	printf("Baekjoon\n");
+	printf("πÈ¡ÿ\n§–.§–");
+	
+	return 0;
+}
